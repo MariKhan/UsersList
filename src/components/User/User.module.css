@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block1 {
+    display: flex;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 5px 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: -25px 30px 5px 28px;
+}
+
+.email_icon {
+    background: url('/public/icons/at_sign.svg');
+    width: 15px;
+    height: 15px;
+    margin: 2px 5px 5px 10px;
+}
+
+.action {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    margin-top: 15px;
+}
